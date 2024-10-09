@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="context">
+        <form action="#" method="post">
+            <div>您的大名： <input type="text" value=""></div>
+            <div>您的邮箱：<input type="email" value=""></div>
+            <div>性别：
+                <label><input type="radio" name="male" checked> 男</label>
+                <label><input type="radio" name="male"> 女</label>
+            </div>
+            <div>出生地：
+                <select>
+                    <option selected="selected">北京</option>
+                    <option>上海</option>
+                    <option>广州</option>
+                </select>
+            </div>
+            <div>您的爱好：
+                <input type="checkbox" value="" name="hobby" id="sport"> <label>体育</label>
+                <input type="checkbox" value="" name="hobby" id="sing"> <label>唱歌</label>
+                <input type="checkbox" value="" name="hobby" id="learn"> <label>学习</label>
+            </div>
+            <div>请留下您宝贵的意见</div>
+            <div>
+            <textarea cols="30" rows="10" placeholder="打个招呼吧"></textarea>
+            </div>
+            <br />
+            <div>
+                <button id="submit">提交</button>
+                <button id="reset">重写</button>
+            </div>
+            <!-- <input type="submit" value="提交">
+            <input type="reset" value="重写"> -->
+        </form>
+    </div>
+</body>
+</html>
