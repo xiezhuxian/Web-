@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#context{
+    width: 529px;
+    height: 402px;
+    background-image: url(bgguest.jpg);
+    margin: 0 auto;
+}
+#context form{
+    padding: 30px;
+}
+#context form div{
+    margin-top: 10px;
+    color: pink;
+}
+.border{
+    border: 1px solid #e5e5e5;
+}
+#submit{
+    background-image: url(submit.jpg);
+    width: 88px;
+    height: 28px;
+    border: 0;
+}
+#reset{
+    background-image: url(reset.jpg);
+    width: 88px;
+    height: 28px;
+    border: 0;
+}
